@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "jU0DU4VQaAI=",
+  "success": true,
+  "projectFilePath": "/Users/aditya/Projects/CDKBookAPI/src/CDKBookAPI/CDKBookAPI.csproj",
+  "expectedPackageFiles": [
+    "/Users/aditya/.nuget/packages/microsoft.aspnetcore.openapi/9.0.0/microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "/Users/aditya/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+/Users/aditya/Projects/CDKBookAPI/src/Application/bin/Debug/net6.0/Application.deps.json
+/Users/aditya/Projects/CDKBookAPI/src/Application/bin/Debug/net6.0/Application.dll
+/Users/aditya/Projects/CDKBookAPI/src/Application/bin/Debug/net6.0/Application.pdb
+/Users/aditya/Projects/CDKBookAPI/src/Application/obj/Debug/net6.0/Application.csproj.AssemblyReference.cache
+/Users/aditya/Projects/CDKBookAPI/src/Application/obj/Debug/net6.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aditya/Projects/CDKBookAPI/src/Application/obj/Debug/net6.0/Application.AssemblyInfoInputs.cache
+/Users/aditya/Projects/CDKBookAPI/src/Application/obj/Debug/net6.0/Application.AssemblyInfo.cs
+/Users/aditya/Projects/CDKBookAPI/src/Application/obj/Debug/net6.0/Application.csproj.CoreCompileInputs.cache
+/Users/aditya/Projects/CDKBookAPI/src/Application/obj/Debug/net6.0/Application.dll
+/Users/aditya/Projects/CDKBookAPI/src/Application/obj/Debug/net6.0/refint/Application.dll
+/Users/aditya/Projects/CDKBookAPI/src/Application/obj/Debug/net6.0/Application.pdb
+/Users/aditya/Projects/CDKBookAPI/src/Application/obj/Debug/net6.0/ref/Application.dll

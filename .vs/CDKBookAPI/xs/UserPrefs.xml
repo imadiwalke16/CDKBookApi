@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{CB9506A5-E432-4A91-9186-A3957174B1C5}|http">
+  <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>src/Domain/Domain.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/WebApi/Program.cs">
+    <Files>
+      <File FileName="src/WebApi/Program.cs" Line="32" Column="35" />
+      <File FileName="src/Application/Interfaces/ICustomerRepository.cs" />
+      <File FileName="src/Application/Interfaces/ICustomerService.cs" />
+      <File FileName="src/Application/Services/CustomerService.cs" />
+      <File FileName="src/Infrastructure/Data/AppDbContext.cs" />
+      <File FileName="src/Infrastructure/Repositories/CustomerRepository.cs" />
+      <File FileName="src/WebApi/Controllers/CustomerController.cs" />
+      <File FileName="src/WebApi/appsettings.json" />
+      <File FileName="../../../../usr/local/share/dotnet/sdk/7.0.317/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.FrameworkReferenceResolution.targets" />
+      <File FileName="src/WebApi/Properties/launchSettings.json" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CDKBookAPI" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="Application" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+              <Node name="Infrastructure" expanded="True" />
+              <Node name="WebApi" expanded="True">
+                <Node name="Properties" expanded="True" />
+                <Node name="Program.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.src.WebApi PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
