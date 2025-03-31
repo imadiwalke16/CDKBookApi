@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/IPVLkLAB9D13Yc1mOMiEy96AJ1OxDSD6NoRgdiboZ7Vo/kdO0eGMKygcP/lQENLeu8C5uVMKL8npRcZsP2i9w==",
+  "dgSpecHash": "LnyWhGX72/xPuIOwMaVdCMHvr+LtnKQqlIutd5zfrMtt8DGS+DJXJJex0d5IwqZH4exGmlLiExpRH0p6SVLv0Q==",
   "success": true,
   "projectFilePath": "/Users/aditya/Projects/CDKBookAPI/src/Application/Application.csproj",
   "expectedPackageFiles": [
+    "/Users/aditya/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/Users/aditya/.nuget/packages/mediatr/6.0.0/mediatr.6.0.0.nupkg.sha512",
     "/Users/aditya/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
   ],

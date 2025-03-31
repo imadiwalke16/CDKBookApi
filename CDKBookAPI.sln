@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Infra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "src\WebApi\WebApi.csproj", "{CB9506A5-E432-4A91-9186-A3957174B1C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDKBookAPI.Tests", "CDKBookAPI.Tests\CDKBookAPI.Tests.csproj", "{07BEFA55-A537-4C42-ACD7-D54D73E252C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{CB9506A5-E432-4A91-9186-A3957174B1C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB9506A5-E432-4A91-9186-A3957174B1C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB9506A5-E432-4A91-9186-A3957174B1C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07BEFA55-A537-4C42-ACD7-D54D73E252C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07BEFA55-A537-4C42-ACD7-D54D73E252C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07BEFA55-A537-4C42-ACD7-D54D73E252C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07BEFA55-A537-4C42-ACD7-D54D73E252C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

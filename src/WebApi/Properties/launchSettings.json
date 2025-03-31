@@ -1,10 +1,11 @@
 {
   "$schema": "https://json.schemastore.org/launchsettings.json",
   "profiles": {
-    "http": {
+    "WebApi": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "http://localhost:5245",
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5245;https://localhost:7245",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

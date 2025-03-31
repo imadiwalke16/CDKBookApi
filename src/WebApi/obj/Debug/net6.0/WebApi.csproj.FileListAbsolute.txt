@@ -5,8 +5,10 @@
 /Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/WebApi.runtimeconfig.json
 /Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/WebApi.dll
 /Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/WebApi.pdb
+/Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/BCrypt.Net-Next.dll
 /Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/Humanizer.dll
 /Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/MediatR.dll
+/Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/Microsoft.DotNet.PlatformAbstractions.dll
 /Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
 /Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -24,6 +26,12 @@
 /Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/Microsoft.Extensions.ObjectPool.dll
 /Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
 /Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+/Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
 /Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/Microsoft.OpenApi.dll
 /Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/Newtonsoft.Json.dll
 /Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/Npgsql.dll
@@ -32,6 +40,7 @@
 /Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll
+/Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
 /Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/System.Text.Encodings.Web.dll
 /Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
 /Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/Application.dll
@@ -54,3 +63,6 @@
 /Users/aditya/Projects/CDKBookAPI/src/WebApi/obj/Debug/net6.0/WebApi.pdb
 /Users/aditya/Projects/CDKBookAPI/src/WebApi/obj/Debug/net6.0/WebApi.genruntimeconfig.cache
 /Users/aditya/Projects/CDKBookAPI/src/WebApi/obj/Debug/net6.0/ref/WebApi.dll
+/Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/System.IO.Pipelines.dll
+/Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/System.Net.WebSockets.WebSocketProtocol.dll
+/Users/aditya/Projects/CDKBookAPI/src/WebApi/bin/Debug/net6.0/System.Threading.Channels.dll
