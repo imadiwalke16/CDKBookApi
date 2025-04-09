@@ -1,16 +1,16 @@
 ﻿<Properties StartupConfiguration="{07BEFA55-A537-4C42-ACD7-D54D73E252C5}|Default">
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <DisabledProjects>
     <String>src/Domain/Domain.csproj</String>
   </DisabledProjects>
   <MonoDevelop.Ide.ItemProperties.Applications.Tests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.WebApi.Tests FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.src.WebApi PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.ItemProperties.Infrastructure.Tests FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CDKBookAPI.Tests/AuthServiceTests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CDKBookAPI.Tests/VehicleServiceTests.cs">
     <Files>
       <File FileName="src/Application/Domain/Entities/User.cs" />
       <File FileName="src/Infrastructure/Data/AppDbContext.cs" />
@@ -22,7 +22,7 @@
       <File FileName="src/Infrastructure/Repositories/UserRepository.cs" />
       <File FileName="src/Infrastructure/Auth/JwtProvider.cs" />
       <File FileName="src/Infrastructure/Migrations/AppDbContextModelSnapshot.cs" />
-      <File FileName="src/Application/Domain/Entities/Vehicle.cs" />
+      <File FileName="src/Application/Domain/Entities/Vehicle.cs" Line="24" Column="1" />
       <File FileName="src/Application/Domain/Entities/ServiceAppointment.cs" />
       <File FileName="src/Application/Domain/Entities/ServiceHistory.cs" />
       <File FileName="src/Application/Domain/Entities/Notification..cs" />
@@ -34,13 +34,13 @@
       <File FileName="src/Application/Interfaces/IServiceOfferedRepository.cs" />
       <File FileName="src/Infrastructure/Repositories/ServiceOfferedRepository.cs" />
       <File FileName="src/Application/Services/ServiceCenterService.cs" />
-      <File FileName="src/Application/Interfaces/IVehicleRepository.cs" />
+      <File FileName="src/Application/Interfaces/IVehicleRepository.cs" Line="1" Column="1" />
       <File FileName="src/Infrastructure/Repositories/VehicleRepository.cs" />
-      <File FileName="src/Application/Interfaces/IVehicleService.cs" />
-      <File FileName="src/Application/Services/VehicleService.cs" />
+      <File FileName="src/Application/Interfaces/IVehicleService.cs" Line="16" Column="1" />
+      <File FileName="src/Application/Services/VehicleService.cs" Line="47" Column="1" />
       <File FileName="src/Application/DTOs/ServiceAppointmentDTO.cs" />
       <File FileName="src/Application/DTOs/UserDTO.cs" />
-      <File FileName="src/Application/DTOs/VehicleDTO.cs" />
+      <File FileName="src/Application/DTOs/VehicleDTO.cs" Line="13" Column="1" />
       <File FileName="src/Application/DTOs/ServiceCenterDTO.cs" />
       <File FileName="src/Application/Domain/Entities/ServiceAppointmentService.cs" />
       <File FileName="src/Application/Interfaces/IServiceAppointmentRepository.cs" />
@@ -50,7 +50,7 @@
       <File FileName="src/Application/DTOs/ServiceAppointmentServiceDTO.cs" />
       <File FileName="src/Application/DTOs/ServiceAppointmentCreateDTO.cs" />
       <File FileName="CDKBookAPI.Tests/Usings.cs" />
-      <File FileName="CDKBookAPI.Tests/AuthServiceTests.cs" Line="35" Column="69" />
+      <File FileName="CDKBookAPI.Tests/AuthServiceTests.cs" Line="7" Column="35" />
       <File FileName="src/WebApi/Controllers/AuthController.cs" />
       <File FileName="src/WebApi/Controllers/OTPController.cs" />
       <File FileName="src/WebApi/Controllers/VehicleController.cs" />
@@ -66,31 +66,44 @@
       <File FileName="src/WebApi/appsettings.json" />
       <File FileName="src/WebApi/Controllers/ServiceCenterController.cs" />
       <File FileName="src/WebApi/Controllers/ServiceOfferedController.cs" />
+      <File FileName="Infrastructure.Tests/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="WebApi.Tests/UnitTest1.cs" Line="1" Column="1" />
+      <File FileName="CDKBookAPI.Tests/VehicleServiceTests.cs" Line="111" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CDKBookAPI" expanded="True">
+          <Node name="CDKBookAPI">
             <Node name="src" expanded="True">
               <Node name="Application" expanded="True">
                 <Node name="Domain" expanded="True">
                   <Node name="Entities" expanded="True" />
                 </Node>
+                <Node name="DTOs" expanded="True" />
+                <Node name="Interfaces" expanded="True" />
+                <Node name="Services" expanded="True" />
               </Node>
               <Node name="Infrastructure" expanded="True">
                 <Node name="Data" expanded="True" />
               </Node>
               <Node name="WebApi" expanded="True" />
             </Node>
-            <Node name="CDKBookAPI.Tests" expanded="True">
-              <Node name="AuthServiceTests.cs" selected="True" />
+            <Node name="Applications.Tests" expanded="True">
+              <Node name="Dependencies" expanded="True" />
             </Node>
+            <Node name="WebApi.Tests" expanded="True" />
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="CDKBookAPI" expanded="True" selected="True" />
+          <Node name="CDKBookAPI" selected="True">
+            <Node name="Applications.Tests">
+              <Node name="CDKBookAPI.Tests">
+                <Node name="AuthServiceTests" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
