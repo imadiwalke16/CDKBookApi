@@ -1,9 +1,16 @@
 ﻿<Properties StartupConfiguration="{07BEFA55-A537-4C42-ACD7-D54D73E252C5}|Default">
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="src/Application/Services/AuthService.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <DisabledProjects>
+    <String>src/Domain/Domain.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.Applications.Tests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.WebApi.Tests FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.src.WebApi PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.ItemProperties.Infrastructure.Tests FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CDKBookAPI.Tests/AuthServiceTests.cs">
     <Files>
       <File FileName="src/Application/Domain/Entities/User.cs" />
       <File FileName="src/Infrastructure/Data/AppDbContext.cs" />
@@ -11,7 +18,7 @@
       <File FileName="src/Application/Interfaces/IUserRepository.cs" />
       <File FileName="src/Application/Interfaces/IAuthService.cs" />
       <File FileName="src/Application/Interfaces/IJwtProvider.cs" />
-      <File FileName="src/Application/Services/AuthService.cs" Line="17" Column="6" />
+      <File FileName="src/Application/Services/AuthService.cs" />
       <File FileName="src/Infrastructure/Repositories/UserRepository.cs" />
       <File FileName="src/Infrastructure/Auth/JwtProvider.cs" />
       <File FileName="src/Infrastructure/Migrations/AppDbContextModelSnapshot.cs" />
@@ -43,7 +50,7 @@
       <File FileName="src/Application/DTOs/ServiceAppointmentServiceDTO.cs" />
       <File FileName="src/Application/DTOs/ServiceAppointmentCreateDTO.cs" />
       <File FileName="CDKBookAPI.Tests/Usings.cs" />
-      <File FileName="CDKBookAPI.Tests/AuthServiceTests.cs" />
+      <File FileName="CDKBookAPI.Tests/AuthServiceTests.cs" Line="35" Column="69" />
       <File FileName="src/WebApi/Controllers/AuthController.cs" />
       <File FileName="src/WebApi/Controllers/OTPController.cs" />
       <File FileName="src/WebApi/Controllers/VehicleController.cs" />
@@ -69,23 +76,15 @@
                 <Node name="Domain" expanded="True">
                   <Node name="Entities" expanded="True" />
                 </Node>
-                <Node name="DTOs" expanded="True" />
-                <Node name="Interfaces" expanded="True" />
-                <Node name="Services" expanded="True">
-                  <Node name="AuthService.cs" selected="True" />
-                </Node>
               </Node>
               <Node name="Infrastructure" expanded="True">
-                <Node name="Auth" expanded="True" />
                 <Node name="Data" expanded="True" />
-                <Node name="Repositories" expanded="True" />
               </Node>
-              <Node name="WebApi" expanded="True">
-                <Node name="Controllers" expanded="True" />
-                <Node name="Services" expanded="True" />
-              </Node>
+              <Node name="WebApi" expanded="True" />
             </Node>
-            <Node name="CDKBookAPI.Tests" expanded="True" />
+            <Node name="CDKBookAPI.Tests" expanded="True">
+              <Node name="AuthServiceTests.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -96,11 +95,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.CDKBookAPI.Tests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <DisabledProjects>
-    <String>src/Domain/Domain.csproj</String>
-  </DisabledProjects>
-  <MonoDevelop.Ide.ItemProperties.src.WebApi PreferredExecutionTarget="/Applications/Brave Browser.app" />
 </Properties>

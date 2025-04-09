@@ -11,7 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Infra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "src\WebApi\WebApi.csproj", "{CB9506A5-E432-4A91-9186-A3957174B1C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDKBookAPI.Tests", "CDKBookAPI.Tests\CDKBookAPI.Tests.csproj", "{07BEFA55-A537-4C42-ACD7-D54D73E252C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Applications.Tests", "CDKBookAPI.Tests\Applications.Tests.csproj", "{07BEFA55-A537-4C42-ACD7-D54D73E252C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Tests", "Infrastructure.Tests\Infrastructure.Tests.csproj", "{A16FBBEC-76FE-421D-AFB1-CADA76E3A1E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Tests", "WebApi.Tests\WebApi.Tests.csproj", "{09942668-7BDD-49A9-8C0C-5B8AF8B404ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,14 @@ Global
 		{07BEFA55-A537-4C42-ACD7-D54D73E252C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07BEFA55-A537-4C42-ACD7-D54D73E252C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07BEFA55-A537-4C42-ACD7-D54D73E252C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A16FBBEC-76FE-421D-AFB1-CADA76E3A1E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A16FBBEC-76FE-421D-AFB1-CADA76E3A1E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A16FBBEC-76FE-421D-AFB1-CADA76E3A1E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A16FBBEC-76FE-421D-AFB1-CADA76E3A1E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09942668-7BDD-49A9-8C0C-5B8AF8B404ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09942668-7BDD-49A9-8C0C-5B8AF8B404ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09942668-7BDD-49A9-8C0C-5B8AF8B404ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09942668-7BDD-49A9-8C0C-5B8AF8B404ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
