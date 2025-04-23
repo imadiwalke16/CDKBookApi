@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "Infrastructure.Tests/1.0.0": {
         "dependencies": {
+          "FluentAssertions": "6.12.2",
           "Infrastructure": "1.0.0",
+          "Microsoft.EntityFrameworkCore.InMemory": "6.0.35",
           "Microsoft.NET.Test.Sdk": "17.1.0",
           "Moq": "4.20.72",
           "coverlet.collector": "3.1.2",
@@ -30,9 +32,26 @@
       "Castle.Core/5.1.1": {
         "dependencies": {
           "System.Diagnostics.EventLog": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Castle.Core.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.1.1.0"
+          }
         }
       },
       "coverlet.collector/3.1.2": {},
+      "FluentAssertions/6.12.2": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "4.4.0"
+        },
+        "runtime": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "assemblyVersion": "6.12.2.0",
+            "fileVersion": "6.12.2.0"
+          }
+        }
+      },
       "MediatR/6.0.0": {
         "runtime": {
           "lib/netstandard2.0/MediatR.dll": {
@@ -344,6 +363,17 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/6.0.35": {},
+      "Microsoft.EntityFrameworkCore.InMemory/6.0.35": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.35"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "assemblyVersion": "6.0.35.0",
+            "fileVersion": "6.0.3524.46208"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/6.0.29": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.35",
@@ -833,6 +863,12 @@
       "Moq/4.20.72": {
         "dependencies": {
           "Castle.Core": "5.1.1"
+        },
+        "runtime": {
+          "lib/net6.0/Moq.dll": {
+            "assemblyVersion": "4.20.72.0",
+            "fileVersion": "4.20.72.0"
+          }
         }
       },
       "NETStandard.Library/1.6.1": {
@@ -1004,6 +1040,17 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         }
       },
+      "System.Configuration.ConfigurationManager/4.4.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
       "System.Console/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -1031,7 +1078,28 @@
           }
         }
       },
-      "System.Diagnostics.EventLog/6.0.0": {},
+      "System.Diagnostics.EventLog/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.Diagnostics.EventLog.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          },
+          "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
       "System.Diagnostics.Tools/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -1430,6 +1498,22 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
+      "System.Security.Cryptography.ProtectedData/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
       "System.Security.Cryptography.X509Certificates/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -1678,6 +1762,13 @@
       "path": "coverlet.collector/3.1.2",
       "hashPath": "coverlet.collector.3.1.2.nupkg.sha512"
     },
+    "FluentAssertions/6.12.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8YE+xJmT8wgzEpFuzJ4S62oFhEL/AKouMz1RWPEMEUhy9H11aRQlGIWcHurH5BEy7tbF6gb0CJrs0wOw/AtDcQ==",
+      "path": "fluentassertions/6.12.2",
+      "hashPath": "fluentassertions.6.12.2.nupkg.sha512"
+    },
     "MediatR/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -1859,6 +1950,13 @@
       "sha512": "sha512-Afbx6I0MFIdl6xOrXxEl2fLT/xOJNpedQ2CSj2XfaQzwRJSFYXCjEK+4/BG2Am9HX67T497aNQqjt79gMM9rDA==",
       "path": "microsoft.entityframeworkcore.analyzers/6.0.35",
       "hashPath": "microsoft.entityframeworkcore.analyzers.6.0.35.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/6.0.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0rfIHG+w4mT1wZSismgXWvXMI8lnYLUp0swhhO24N2Ju6eI+IoBc/20UcEpjQf7w4b3iybn2OBw9iI+q8C0qeA==",
+      "path": "microsoft.entityframeworkcore.inmemory/6.0.35",
+      "hashPath": "microsoft.entityframeworkcore.inmemory.6.0.35.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/6.0.29": {
       "type": "package",
@@ -2224,6 +2322,13 @@
       "path": "system.collections.immutable/6.0.0",
       "hashPath": "system.collections.immutable.6.0.0.nupkg.sha512"
     },
+    "System.Configuration.ConfigurationManager/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gWwQv/Ug1qWJmHCmN17nAbxJYmQBM/E94QxKLksvUiiKB1Ld3Sc/eK1lgmbSjDFxkQhVuayI/cGFZhpBSodLrg==",
+      "path": "system.configuration.configurationmanager/4.4.0",
+      "hashPath": "system.configuration.configurationmanager.4.4.0.nupkg.sha512"
+    },
     "System.Console/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -2538,6 +2643,13 @@
       "sha512": "sha512-7bDIyVFNL/xKeFHjhobUAQqSpJq9YTOpbEs6mR233Et01STBMXNAc/V+BM6dwYGc95gVh/Zf+iVXWzj3mE8DWg==",
       "path": "system.security.cryptography.primitives/4.3.0",
       "hashPath": "system.security.cryptography.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cJV7ScGW7EhatRsjehfvvYVBvtiSMKgN8bOVI0bQhnF5bU7vnHVIsH49Kva7i7GWaWYvmEzkYVk1TC+gZYBEog==",
+      "path": "system.security.cryptography.protecteddata/4.4.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
     },
     "System.Security.Cryptography.X509Certificates/4.3.0": {
       "type": "package",

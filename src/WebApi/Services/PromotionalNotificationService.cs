@@ -17,9 +17,9 @@ namespace WebApi.Services
         private readonly Random _random; // Moved Random to class scope
         private static readonly (string Title, string Message)[] Promos = new[]
         {
-            ("Special Offer!", "Get 20% off your next service this week!"),
-            ("Limited Time Deal!", "Free inspection with any booking today!"),
-            ("Weekend Promo!", "Book now and save 15% on all services!")
+            ("Special Offer promotion", "promotion Get 20% off your next service this week!"),
+            ("Limited Time Deal promotion", "promotion Free inspection with any booking today!"),
+            ("Weekend promotion", "promotion Book now and save 15% on all services!")
         };
 
         public PromotionalNotificationService(
