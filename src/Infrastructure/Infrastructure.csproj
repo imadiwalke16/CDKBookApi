@@ -8,11 +8,13 @@
     <None Remove="Repositories\" />
     <None Remove="Data\" />
     <None Remove="Auth\" />
+    <None Remove="Providers\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Repositories\" />
     <Folder Include="Data\" />
     <Folder Include="Auth\" />
+    <Folder Include="Providers\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.35" />

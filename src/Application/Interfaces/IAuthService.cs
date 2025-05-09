@@ -1,7 +1,9 @@
-﻿using System;
-namespace Application.Interfaces;
+﻿using System.Threading.Tasks;
 
-public interface IAuthService
+namespace Application.Interfaces
 {
-    Task<string> LoginAsync(string email, string password);
+    public interface IAuthService
+    {
+        Task<string> LoginAsync(string email, string password, int? dealerId = null);
+    }
 }

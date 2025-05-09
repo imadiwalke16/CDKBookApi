@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -12,9 +13,10 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250426100928_AddDealersAndUserUpdatesV2")]
+    partial class AddDealersAndUserUpdatesV2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -32,11 +34,6 @@ namespace Infrastructure.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("DealerId"));
 
                     b.Property<string>("Cid")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("character varying(50)");
-
-                    b.Property<string>("Code")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("character varying(50)");
@@ -67,7 +64,6 @@ namespace Infrastructure.Migrations
                         {
                             DealerId = 36001,
                             Cid = "320004",
-                            Code = "ABC123",
                             Name = "Ford",
                             StaticOtp = "123456",
                             ThemeConfig = "{\"navbarColor\": \"#0000FF\"}"
@@ -76,7 +72,6 @@ namespace Infrastructure.Migrations
                         {
                             DealerId = 36002,
                             Cid = "330005",
-                            Code = "XYZ789",
                             Name = "Chevy",
                             StaticOtp = "123456",
                             ThemeConfig = "{\"navbarColor\": \"#FF0000\"}"
@@ -240,12 +235,12 @@ namespace Infrastructure.Migrations
                         new
                         {
                             Id = 1,
-                            CustomerId = "2047e667-22ad-49fa-bed4-9337eefb4023",
+                            CustomerId = "CUST123",
                             DealerId = 36001,
-                            Email = "anuradha.yele@cdk.com",
-                            Name = "Akanksha Agrawal",
+                            Email = "test@cdk.com",
+                            Name = "Test User",
                             PasswordHash = "$2a$12$t8DhVKV9fZpdrXtYhWhKduZPIDsHySlUSzgq38dHgOO4wUxIbfDri",
-                            PhoneNumber = "(815) 982-7993",
+                            PhoneNumber = "1234567890",
                             Role = "Customer"
                         });
                 });
